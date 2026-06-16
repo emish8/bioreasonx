@@ -1,0 +1,298 @@
+{
+  "BRCA1 c.5266dupC": {
+    "gene": "BRCA1",
+    "mutation": "c.5266dupC (p.Gln1756ProfsTer74)",
+    "pathogenicity": "Pathogenic",
+    "mutation_type": "Frameshift Insertion",
+    "chromosome": "Chr 17: 43044295",
+    "review_status": "practice guideline (4 stars)",
+    "clinical_significance": "Pathogenic variant associated with hereditary breast and ovarian cancer syndrome.",
+    "protein_impact": {
+      "uniprot_id": "P38398",
+      "consequence": "Causes a frameshift starting at codon 1756, resulting in a premature stop codon 74 amino acids downstream. This truncates the C-terminal BRCT domain, which is essential for double-strand DNA break repair and transcription activation.",
+      "residues_affected": "1756-1863 (truncated)"
+    },
+    "pathways": [
+      {
+        "id": "R-HSA-5685939",
+        "name": "Homologous Recombination Repair"
+      },
+      {
+        "id": "R-HSA-73894",
+        "name": "DNA Double-Strand Break Repair"
+      },
+      {
+        "id": "R-HSA-69620",
+        "name": "Cell Cycle Checkpoints"
+      }
+    ],
+    "drugs": [
+      {
+        "name": "Olaparib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "PARP inhibitor. Induces synthetic lethality in cells with homologous recombination deficiency (HRD) caused by BRCA1 mutations."
+      },
+      {
+        "name": "Talazoparib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "Potent PARP inhibitor and PARP trapper. Highly effective in BRCA1-mutated advanced breast cancer."
+      },
+      {
+        "name": "Rucaparib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "PARP1, PARP2, and PARP3 inhibitor. Approved for ovarian and prostate cancer with BRCA mutations."
+      }
+    ],
+    "pubmed": [
+      {
+        "pmid": "29333925",
+        "title": "Talazoparib in Patients with BRCA1 or BRCA2-Mutated Advanced Breast Cancer.",
+        "journal": "N Engl J Med",
+        "year": "2018",
+        "authors": "Litton JK, et al.",
+        "abstract": "In patients with advanced breast cancer and a germline BRCA1/2 mutation, talazoparib provided a significant progression-free survival benefit over standard chemotherapy. Synthetic lethality of PARP inhibition shows high clinical efficacy in HR-deficient tumors."
+      },
+      {
+        "pmid": "20729471",
+        "title": "Olaparib maintenance therapy in patients with platinum-sensitive relapsed serous ovarian cancer.",
+        "journal": "Lancet Oncol",
+        "year": "2010",
+        "authors": "Ledermann J, et al.",
+        "abstract": "Olaparib maintenance treatment led to a significant improvement in progression-free survival in patients with platinum-sensitive ovarian cancer, with the greatest benefit observed in patients with a BRCA mutation."
+      }
+    ]
+  },
+  "EGFR L858R": {
+    "gene": "EGFR",
+    "mutation": "L858R (c.2573T>G)",
+    "pathogenicity": "Pathogenic / Drug Sensitive",
+    "mutation_type": "Missense Substitution",
+    "chromosome": "Chr 7: 55191822",
+    "review_status": "reviewed by expert panel (3 stars)",
+    "clinical_significance": "Pathogenic variant associated with non-small cell lung cancer susceptibility and responsiveness to tyrosine kinase inhibitors.",
+    "protein_impact": {
+      "uniprot_id": "P00533",
+      "consequence": "Substitution of Leucine to Arginine at codon 858 in the activation loop (A-loop) of the kinase domain. This destabilizes the inactive conformation, locking the kinase in a constitutively active state that promotes continuous downstream growth signaling.",
+      "residues_affected": "858 (kinase domain)"
+    },
+    "pathways": [
+      {
+        "id": "R-HSA-177929",
+        "name": "Signaling by EGFR"
+      },
+      {
+        "id": "R-HSA-1257604",
+        "name": "PIP3 activates AKT signaling"
+      },
+      {
+        "id": "R-HSA-5684996",
+        "name": "MAPK family signaling cascades"
+      }
+    ],
+    "drugs": [
+      {
+        "name": "Osimertinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved (1st Line)",
+        "rationale": "Third-generation irreversible EGFR TKI. Highly selective for EGFR sensitizing mutations (L858R) and resistance mutations (T790M) while sparing wild-type EGFR."
+      },
+      {
+        "name": "Erlotinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "First-generation reversible EGFR TKI. Competes with ATP for binding at the mutated kinase active site."
+      },
+      {
+        "name": "Gefitinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "First-generation reversible EGFR TKI. Effective for initial tumor regression in NSCLC patients harboring EGFR L858R."
+      }
+    ],
+    "pubmed": [
+      {
+        "pmid": "29151359",
+        "title": "Osimertinib in Untreated EGFR-Mutated Advanced NSCLC.",
+        "journal": "N Engl J Med",
+        "year": "2018",
+        "authors": "Soria JC, et al.",
+        "abstract": "Osimertinib showed efficacy superior to that of standard EGFR-TKIs in the first-line treatment of patients with EGFR mutation-positive advanced NSCLC, with a similar safety profile and lower rates of serious adverse events."
+      },
+      {
+        "pmid": "15343335",
+        "title": "Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib.",
+        "journal": "N Engl J Med",
+        "year": "2004",
+        "authors": "Lynch TJ, et al.",
+        "abstract": "We identified somatic mutations in the tyrosine kinase domain of EGFR in patients with NSCLC who responded to gefitinib. The mutations, including L858R, lead to increased tyrosine kinase activity in response to EGF."
+      }
+    ]
+  },
+  "BRAF V600E": {
+    "gene": "BRAF",
+    "mutation": "V600E (c.1799T>A)",
+    "pathogenicity": "Pathogenic / Drug Sensitive",
+    "mutation_type": "Missense Substitution",
+    "chromosome": "Chr 7: 140753336",
+    "review_status": "reviewed by expert panel (3 stars)",
+    "clinical_significance": "Pathogenic variant associated with melanoma, colorectal cancer susceptibility, and thyroid papillary carcinoma.",
+    "protein_impact": {
+      "uniprot_id": "P15056",
+      "consequence": "Valine replaced by Glutamate at position 600 in the activation segment. The negative charge of glutamate mimics the regulatory phosphorylation of residues T599 and S602, keeping the kinase in an active monomeric state that activates MEK/ERK independently of RAS.",
+      "residues_affected": "600 (activation loop)"
+    },
+    "pathways": [
+      {
+        "id": "R-HSA-5673001",
+        "name": "RAF/MAP kinase cascade"
+      },
+      {
+        "id": "R-HSA-5683826",
+        "name": "Signaling by RAS variants"
+      }
+    ],
+    "drugs": [
+      {
+        "name": "Vemurafenib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "Small molecule inhibitor of mutated BRAF V600E kinase. Induces apoptosis in BRAF-mutant melanoma cells."
+      },
+      {
+        "name": "Dabrafenib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "Reversible inhibitor of mutated BRAF V600E kinase. Often combined with MEK inhibitors to delay resistance."
+      },
+      {
+        "name": "Trametinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved (Combination)",
+        "rationale": "MEK1/2 inhibitor. Used in combination with Dabrafenib to block downstream signaling and bypass BRAF rebound resistance."
+      }
+    ],
+    "pubmed": [
+      {
+        "pmid": "21639808",
+        "title": "Improved survival with vemurafenib in melanoma with BRAF V600E mutation.",
+        "journal": "N Engl J Med",
+        "year": "2011",
+        "authors": "Chapman PB, et al.",
+        "abstract": "Vemurafenib produced improved rates of overall and progression-free survival in patients with previously untreated melanoma with the BRAF V600E mutation, outperforming dacarbazine therapy."
+      }
+    ]
+  },
+  "KRAS G12C": {
+    "gene": "KRAS",
+    "mutation": "G12C (c.34G>T)",
+    "pathogenicity": "Pathogenic / Drug Sensitive",
+    "mutation_type": "Missense Substitution",
+    "chromosome": "Chr 12: 25245350",
+    "review_status": "reviewed by expert panel (3 stars)",
+    "clinical_significance": "Pathogenic variant associated with non-small cell lung cancer and colorectal cancer.",
+    "protein_impact": {
+      "uniprot_id": "P01116",
+      "consequence": "Glycine replaced by Cysteine at codon 12. This mutation impairs intrinsic GTPase activity and blocks GAP-mediated GTP hydrolysis, keeping KRAS locked in the active GTP-bound state, continuously stimulating RAF-MEK-ERK signaling.",
+      "residues_affected": "12 (G-domain)"
+    },
+    "pathways": [
+      {
+        "id": "R-HSA-5683826",
+        "name": "Signaling by RAS variants"
+      },
+      {
+        "id": "R-HSA-5673001",
+        "name": "RAF/MAP kinase cascade"
+      }
+    ],
+    "drugs": [
+      {
+        "name": "Sotorasib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "Small-molecule covalent inhibitor that specifically and irreversibly binds to the cysteine residue in mutated KRAS G12C, locking it in the inactive GDP-bound state."
+      },
+      {
+        "name": "Adagrasib",
+        "type": "inhibitor",
+        "indication": "FDA Approved",
+        "rationale": "Covalent inhibitor of KRAS G12C. Highly selective and exhibits favorable PK properties, sustaining active pathway suppression."
+      }
+    ],
+    "pubmed": [
+      {
+        "pmid": "34087125",
+        "title": "Sotorasib for Lung Cancers with KRAS G12C Mutation.",
+        "journal": "N Engl J Med",
+        "year": "2021",
+        "authors": "Skoulidis F, et al.",
+        "abstract": "In a phase 2 trial, sotorasib therapy led to a durable clinical benefit in patients with pretreated KRAS G12C-mutated advanced NSCLC, representing the first successful therapeutic targeting of KRAS."
+      }
+    ]
+  },
+  "ALK F1174L": {
+    "gene": "ALK",
+    "mutation": "F1174L (c.3522G>C)",
+    "pathogenicity": "Pathogenic / Drug Resistant",
+    "mutation_type": "Missense Substitution",
+    "chromosome": "Chr 2: 29222409",
+    "review_status": "criteria provided (2 stars)",
+    "clinical_significance": "Pathogenic variant associated with neuroblastoma susceptibility and secondary resistance to ALK inhibitors like crizotinib.",
+    "protein_impact": {
+      "uniprot_id": "Q9UM73",
+      "consequence": "Phenylalanine to Leucine substitution at position 1174. Located in the kinase domain near the ATP-binding pocket. The mutation increases ATP affinity, which outcompetes early ALK inhibitors like Crizotinib, causing drug resistance, but remains sensitive to third-generation inhibitors.",
+      "residues_affected": "1174 (ATP binding pocket)"
+    },
+    "pathways": [
+      {
+        "id": "R-HSA-1257604",
+        "name": "PIP3 activates AKT signaling"
+      },
+      {
+        "id": "R-HSA-9603407",
+        "name": "Signaling by ALK"
+      }
+    ],
+    "drugs": [
+      {
+        "name": "Lorlatinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved (Effective)",
+        "rationale": "Third-generation macrocyclic ALK inhibitor. Specifically designed to overcome resistance mutations including ALK F1174L and cross the blood-brain barrier."
+      },
+      {
+        "name": "Alectinib",
+        "type": "inhibitor",
+        "indication": "FDA Approved (Partial)",
+        "rationale": "Second-generation ALK inhibitor. Shows intermediate potency against F1174L resistance mutants compared to Crizotinib."
+      },
+      {
+        "name": "Crizotinib",
+        "type": "inhibitor",
+        "indication": "Resistant",
+        "rationale": "First-generation ALK inhibitor. F1174L mutation increases ATP binding affinity, rendering crizotinib ineffective."
+      }
+    ],
+    "pubmed": [
+      {
+        "pmid": "20305097",
+        "title": "Activating mutations in ALK provide a therapeutic target in neuroblastoma.",
+        "journal": "Nature",
+        "year": "2008",
+        "authors": "George RE, et al.",
+        "abstract": "We identified somatic mutations in the ALK kinase domain in neuroblastoma samples. The F1174L mutation is an activating alteration promoting ligand-independent receptor autophosphorylation and transformation."
+      },
+      {
+        "pmid": "27680757",
+        "title": "Lorlatinib in ALK-resistant non-small-cell lung cancer.",
+        "journal": "Lancet Oncol",
+        "year": "2016",
+        "authors": "Shaw AT, et al.",
+        "abstract": "Lorlatinib, a third-generation ALK TKI, showed high objective response rates in patients with ALK-positive NSCLC who had progressed on first- and second-generation inhibitors, overcoming pocket mutations like F1174L."
+      }
+    ]
+  }
+}
